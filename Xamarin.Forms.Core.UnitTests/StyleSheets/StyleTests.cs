@@ -159,10 +159,6 @@ namespace Xamarin.Forms.StyleSheets.UnitTests
 			TestCase(typeof(StackLayout), new[] {
 				nameof(StackLayout.Spacing),
 			}),
-			TestCase(typeof(Grid), new[] {
-				nameof(Grid.RowSpacing),
-				nameof(Grid.ColumnSpacing),
-			}),
 		]
 		public void GreenVenderSpecificStyleSheetsAreApplied(Type type, object propertyOrArray)
 		{
